@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "name": "Updated Doggie",
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "photoUrls": ["https://example.com/updated_dog.jpg"],
+    "tags": [{"id": 1, "name": "friendly"}],
+    "status": "sold"
+  }
+  
