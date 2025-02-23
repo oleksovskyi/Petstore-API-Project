@@ -1,11 +1,11 @@
-# 🧪 Petstore API Testing Project
+# Petstore API Testing Project
 
 This project tests the **Petstore API** using **Pytest**, **Allure Reports**, and **BDD Gherkin-style test cases**.  
 It includes manual and automated test cases for the **Pet Section** of the API.
 
 ---
 
-## 🚀 **Project Structure**
+## **Project Structure**
 ```plaintext
 Petstore-API-Testing
 ├── automation
@@ -25,17 +25,17 @@ Petstore-API-Testing
 
 ---
 
-## 📝 **Test Documentation**
-- 📋 **[Test Plan](docs/Test_Plan.md)**: Overview of the testing scope, strategy, and schedule.  
-- 🗂 **[Test Scenarios](docs/Test_Scenarios.md)**: Detailed scenarios with preconditions, actions, and expected outcomes.  
-- 🧪 **[Test Cases](docs/Test_Cases_Manual.md)**: Manual test cases with step-by-step instructions and assertions.  
-- 📊 **[Test Results](docs/Test_Results.md)**: Summary of the latest test execution results (including XFAILs).  
-- 🐞 **[Bugs](docs/Bugs.md)**: Known bugs with unique IDs, affected endpoints, and reproduction steps.  
-- 📏 **[Traceability Matrix](docs/Traceability_Matrix.md)**: Mapping of test cases to project requirements for coverage tracking.  
+## **Test Documentation**
+- **[Test Plan](docs/Test_Plan.md)**: Overview of the testing scope, strategy, and schedule.  
+- **[Test Scenarios](docs/Test_Scenarios.md)**: Detailed scenarios with preconditions, actions, and expected outcomes.  
+- **[Test Cases](docs/Test_Cases_Manual.md)**: Manual test cases with step-by-step instructions and assertions.  
+- **[Test Results](docs/Test_Results.md)**: Summary of the latest test execution results (including XFAILs).  
+- **[Bugs](docs/Bugs.md)**: Known bugs with unique IDs, affected endpoints, and reproduction steps.  
+- **[Traceability Matrix](docs/Traceability_Matrix.md)**: Mapping of test cases to project requirements for coverage tracking.  
 
 ---
 
-## 💻 **How to Run Automated Tests**
+## **How to Run Automated Tests**
 1. **Clone the Repository**  
 ```bash
 git clone https://github.com/oleksovskyi/Petstore-API-Project.git
@@ -66,13 +66,13 @@ allure serve automation/reports/allure-report
 
 ---
 
-## ❗ **Known Issues**
+## **Known Issues**
 - Some API endpoints return incorrect status codes due to known bugs (tracked in **[Bugs.md](docs/Bugs.md)**).
 - Tests related to these bugs are marked as **XFAIL** using Pytest markers.
 
 ---
 
-## 📦 **Project Requirements**
+## **Project Requirements**
 - **Python 3.11**  
 - **Pytest**  
 - **Allure-Pytest**  
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 ---
 
-## ✨ **Author**
+## **Author**
 **[Yurii Oleksovskyi](https://github.com/oleksovskyi)**  
 Quality Assurance Engineer | API & Automation Testing
 
